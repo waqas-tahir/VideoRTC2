@@ -1,0 +1,6 @@
+framework module VideoRTC2 {
+  umbrella header "VideoRTC2-umbrella.h"
+
+  export *
+  module * { export * }
+}

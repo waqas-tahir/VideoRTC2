@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11784A25F5E3255307A9BAC0748B0BB9 /* VideoRTC2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D299C60B35C8ED71435589FF356B03 /* VideoRTC2-dummy.m */; };
+		12D21F04663F508C23727B30BCEDC9B6 /* Pods-VideoRTC2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699516D06EEF6C4F5E9ABC80A4BCBF50 /* Pods-VideoRTC2_Example-dummy.m */; };
+		26F6FB9B3468C7356863253E5BF73729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2B569FE54C309A498B31EC6F379344E2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A74F4D3A7E2494AC1D7BAC8503B3AE3 /* ReplaceMe.m */; };
+		31AB5384DF5F29064015B2F66D09A036 /* Pods-VideoRTC2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B83099AE413C42330F24C6775E3607FC /* Pods-VideoRTC2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BDB5E165ABCD1606EA8B296C2DDE0B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		80FCD09FB9D59251D88CC8945148EB38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8FA92A03FA5A8F530D45D2996BF75FB7 /* VideoRTC2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F8AC7401D109CB5CF991CF8FD4A699 /* VideoRTC2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8264A9AEBBE989B6FB20D861957ABDC /* Pods-VideoRTC2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B47DA1A4110E7E13A4E3FC2C47039E06 /* Pods-VideoRTC2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5245C44D4C10FBB3AF6DD20E0F5A6EA /* Pods-VideoRTC2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D688589C8DD4AB94C8B724E0A37223DD /* Pods-VideoRTC2_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7546AC8428F24BF036FC47F000A5BD8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BFD16BF789BBDD2E38512C5B4754C4A;
+			remoteInfo = "Pods-VideoRTC2_Example";
+		};
+		E4ECC3512A81F74F5623F51C319DE939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505AEE0C9267986D6A07E9B52BEB3546;
+			remoteInfo = VideoRTC2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18BBF29F5686102C122DAC83044864F4 /* VideoRTC2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VideoRTC2.framework; path = VideoRTC2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A74F4D3A7E2494AC1D7BAC8503B3AE3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = VideoRTC2/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		24F8AC7401D109CB5CF991CF8FD4A699 /* VideoRTC2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VideoRTC2-umbrella.h"; sourceTree = "<group>"; };
+		392A82DAAACE3438A4E69951C511F775 /* VideoRTC2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VideoRTC2.xcconfig; sourceTree = "<group>"; };
+		4406712BA03A5491A313E732546A7428 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48DCE27539093434341FC3541E24C67A /* Pods_VideoRTC2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VideoRTC2_Example.framework; path = "Pods-VideoRTC2_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		502B5F85F8CB65029BF9A006CBCB3D71 /* VideoRTC2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VideoRTC2.modulemap; sourceTree = "<group>"; };
+		52C457424161BD256BA091279256D345 /* VideoRTC2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VideoRTC2-prefix.pch"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5BD859E94BB1C4C75707286835628DDD /* Pods-VideoRTC2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoRTC2_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5F08DC58723D0C30309419F616B1EDF2 /* Pods-VideoRTC2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoRTC2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		61504B6FC6D1B3A1DEBBA42D5A8DF1D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		64D299C60B35C8ED71435589FF356B03 /* VideoRTC2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VideoRTC2-dummy.m"; sourceTree = "<group>"; };
+		699516D06EEF6C4F5E9ABC80A4BCBF50 /* Pods-VideoRTC2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoRTC2_Example-dummy.m"; sourceTree = "<group>"; };
+		6D32D586DFD474344323E9E6879976F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		826490E93D2BFE26F3A85DF02BB9FC80 /* Pods-VideoRTC2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoRTC2_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8514FD4257A151C8614856DC4A4D497F /* Pods-VideoRTC2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoRTC2_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8BDF5C78DD712CB37FA874184389A97A /* Pods-VideoRTC2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoRTC2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945647A73BBD2B159731C8FB3D3D7184 /* Pods-VideoRTC2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoRTC2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E6C80FD3438E71172EEA9551F410024 /* Pods_VideoRTC2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VideoRTC2_Tests.framework; path = "Pods-VideoRTC2_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BED9AAFAE3DFC2F5E86D5651F561A8 /* Pods-VideoRTC2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoRTC2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2184409707FA3D8F6101151BEDDDBFD /* Pods-VideoRTC2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoRTC2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B47DA1A4110E7E13A4E3FC2C47039E06 /* Pods-VideoRTC2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoRTC2_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B83099AE413C42330F24C6775E3607FC /* Pods-VideoRTC2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoRTC2_Example-umbrella.h"; sourceTree = "<group>"; };
+		C16856C17DE0CE0BDB5CD4F906E93D3D /* Pods-VideoRTC2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VideoRTC2_Tests.modulemap"; sourceTree = "<group>"; };
+		C6AE4A8597F5C04D864773ECE0C43767 /* Pods-VideoRTC2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoRTC2_Example-resources.sh"; sourceTree = "<group>"; };
+		CB739BC23AD99485D75206DC637FB9E6 /* Pods-VideoRTC2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoRTC2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC52666F5CB0815E7206EAC8214A6E1C /* VideoRTC2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = VideoRTC2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF7C7E616EAB2828AFEC7D73650CE17C /* Pods-VideoRTC2_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoRTC2_Tests-resources.sh"; sourceTree = "<group>"; };
+		D5E09C0234CB4B9ACDE8C9B9837901AB /* Pods-VideoRTC2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VideoRTC2_Example.modulemap"; sourceTree = "<group>"; };
+		D688589C8DD4AB94C8B724E0A37223DD /* Pods-VideoRTC2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoRTC2_Tests-dummy.m"; sourceTree = "<group>"; };
+		EF197AE25D17977C138D986406D2D00C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB49D6C43BAACE9D76EBFF3C36184711 /* Pods-VideoRTC2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoRTC2_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FC1EE4D6A8F416EFFFC2027978B59071 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6432CB3FAB8942BFE46072CD863ACC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F6FB9B3468C7356863253E5BF73729 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775C9CEC571450A8A74CE98A897C7773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FCD09FB9D59251D88CC8945148EB38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933C7499700307DBB2308AB8D7B6106F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDB5E165ABCD1606EA8B296C2DDE0B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52C693B2557CF3A6FC13D1701DBCB504 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA52BFD4AFAAAD22F46E578556BDD29 /* Pods-VideoRTC2_Example */,
+				750AABB98D50666EBBB58358187D493A /* Pods-VideoRTC2_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5CA52BFD4AFAAAD22F46E578556BDD29 /* Pods-VideoRTC2_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FC1EE4D6A8F416EFFFC2027978B59071 /* Info.plist */,
+				D5E09C0234CB4B9ACDE8C9B9837901AB /* Pods-VideoRTC2_Example.modulemap */,
+				945647A73BBD2B159731C8FB3D3D7184 /* Pods-VideoRTC2_Example-acknowledgements.markdown */,
+				5F08DC58723D0C30309419F616B1EDF2 /* Pods-VideoRTC2_Example-acknowledgements.plist */,
+				699516D06EEF6C4F5E9ABC80A4BCBF50 /* Pods-VideoRTC2_Example-dummy.m */,
+				826490E93D2BFE26F3A85DF02BB9FC80 /* Pods-VideoRTC2_Example-frameworks.sh */,
+				C6AE4A8597F5C04D864773ECE0C43767 /* Pods-VideoRTC2_Example-resources.sh */,
+				B83099AE413C42330F24C6775E3607FC /* Pods-VideoRTC2_Example-umbrella.h */,
+				FB49D6C43BAACE9D76EBFF3C36184711 /* Pods-VideoRTC2_Example.debug.xcconfig */,
+				8514FD4257A151C8614856DC4A4D497F /* Pods-VideoRTC2_Example.release.xcconfig */,
+			);
+			name = "Pods-VideoRTC2_Example";
+			path = "Target Support Files/Pods-VideoRTC2_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		689DD3703F0D361B2307B1EAF34F94CA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D32D586DFD474344323E9E6879976F2 /* LICENSE */,
+				61504B6FC6D1B3A1DEBBA42D5A8DF1D8 /* README.md */,
+				CC52666F5CB0815E7206EAC8214A6E1C /* VideoRTC2.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7429B33033A053409A9D6BE6544BD2AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4406712BA03A5491A313E732546A7428 /* Info.plist */,
+				502B5F85F8CB65029BF9A006CBCB3D71 /* VideoRTC2.modulemap */,
+				392A82DAAACE3438A4E69951C511F775 /* VideoRTC2.xcconfig */,
+				64D299C60B35C8ED71435589FF356B03 /* VideoRTC2-dummy.m */,
+				52C457424161BD256BA091279256D345 /* VideoRTC2-prefix.pch */,
+				24F8AC7401D109CB5CF991CF8FD4A699 /* VideoRTC2-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VideoRTC2";
+			sourceTree = "<group>";
+		};
+		750AABB98D50666EBBB58358187D493A /* Pods-VideoRTC2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF197AE25D17977C138D986406D2D00C /* Info.plist */,
+				C16856C17DE0CE0BDB5CD4F906E93D3D /* Pods-VideoRTC2_Tests.modulemap */,
+				A4BED9AAFAE3DFC2F5E86D5651F561A8 /* Pods-VideoRTC2_Tests-acknowledgements.markdown */,
+				8BDF5C78DD712CB37FA874184389A97A /* Pods-VideoRTC2_Tests-acknowledgements.plist */,
+				D688589C8DD4AB94C8B724E0A37223DD /* Pods-VideoRTC2_Tests-dummy.m */,
+				5BD859E94BB1C4C75707286835628DDD /* Pods-VideoRTC2_Tests-frameworks.sh */,
+				CF7C7E616EAB2828AFEC7D73650CE17C /* Pods-VideoRTC2_Tests-resources.sh */,
+				B47DA1A4110E7E13A4E3FC2C47039E06 /* Pods-VideoRTC2_Tests-umbrella.h */,
+				B2184409707FA3D8F6101151BEDDDBFD /* Pods-VideoRTC2_Tests.debug.xcconfig */,
+				CB739BC23AD99485D75206DC637FB9E6 /* Pods-VideoRTC2_Tests.release.xcconfig */,
+			);
+			name = "Pods-VideoRTC2_Tests";
+			path = "Target Support Files/Pods-VideoRTC2_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				98A5B5C0A929A00BFF4FE412EEFB6BCD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C6602DEA12259AB6CD07D12695336492 /* Products */,
+				52C693B2557CF3A6FC13D1701DBCB504 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98A5B5C0A929A00BFF4FE412EEFB6BCD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A62BF4BA83D40AD677705B27F11BE8C7 /* VideoRTC2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A62BF4BA83D40AD677705B27F11BE8C7 /* VideoRTC2 */ = {
+			isa = PBXGroup;
+			children = (
+				1A74F4D3A7E2494AC1D7BAC8503B3AE3 /* ReplaceMe.m */,
+				689DD3703F0D361B2307B1EAF34F94CA /* Pod */,
+				7429B33033A053409A9D6BE6544BD2AD /* Support Files */,
+			);
+			name = VideoRTC2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6602DEA12259AB6CD07D12695336492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48DCE27539093434341FC3541E24C67A /* Pods_VideoRTC2_Example.framework */,
+				9E6C80FD3438E71172EEA9551F410024 /* Pods_VideoRTC2_Tests.framework */,
+				18BBF29F5686102C122DAC83044864F4 /* VideoRTC2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		688982B2F23CDFD3BEAB3E198535C20A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AB5384DF5F29064015B2F66D09A036 /* Pods-VideoRTC2_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01A1E505A69BFA5211B848C5C3431B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA92A03FA5A8F530D45D2996BF75FB7 /* VideoRTC2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BD4DCA5581B1AA7CF1BC05A3EF07EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8264A9AEBBE989B6FB20D861957ABDC /* Pods-VideoRTC2_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F80611704DAB9B9FE3F385456DB546B /* Pods-VideoRTC2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E21559A8AB3A783FD5284784189696 /* Build configuration list for PBXNativeTarget "Pods-VideoRTC2_Tests" */;
+			buildPhases = (
+				894F53283F873C38623A4B5338487F19 /* Sources */,
+				6432CB3FAB8942BFE46072CD863ACC5C /* Frameworks */,
+				A5BD4DCA5581B1AA7CF1BC05A3EF07EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CFD5AE2372F897CA34181A166EE25A /* PBXTargetDependency */,
+			);
+			name = "Pods-VideoRTC2_Tests";
+			productName = "Pods-VideoRTC2_Tests";
+			productReference = 9E6C80FD3438E71172EEA9551F410024 /* Pods_VideoRTC2_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		505AEE0C9267986D6A07E9B52BEB3546 /* VideoRTC2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F167A4B6396A34609130BE025557E0 /* Build configuration list for PBXNativeTarget "VideoRTC2" */;
+			buildPhases = (
+				3059120BDF33BC216FB52965BC278B8A /* Sources */,
+				775C9CEC571450A8A74CE98A897C7773 /* Frameworks */,
+				A01A1E505A69BFA5211B848C5C3431B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoRTC2;
+			productName = VideoRTC2;
+			productReference = 18BBF29F5686102C122DAC83044864F4 /* VideoRTC2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BFD16BF789BBDD2E38512C5B4754C4A /* Pods-VideoRTC2_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CC88763512B39AFC12D68628E8A5FA /* Build configuration list for PBXNativeTarget "Pods-VideoRTC2_Example" */;
+			buildPhases = (
+				4551D5C319A95AFB951D519433ECF39C /* Sources */,
+				933C7499700307DBB2308AB8D7B6106F /* Frameworks */,
+				688982B2F23CDFD3BEAB3E198535C20A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95967BD7F5F9C7E10B4BB9A61DA09267 /* PBXTargetDependency */,
+			);
+			name = "Pods-VideoRTC2_Example";
+			productName = "Pods-VideoRTC2_Example";
+			productReference = 48DCE27539093434341FC3541E24C67A /* Pods_VideoRTC2_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C6602DEA12259AB6CD07D12695336492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BFD16BF789BBDD2E38512C5B4754C4A /* Pods-VideoRTC2_Example */,
+				2F80611704DAB9B9FE3F385456DB546B /* Pods-VideoRTC2_Tests */,
+				505AEE0C9267986D6A07E9B52BEB3546 /* VideoRTC2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3059120BDF33BC216FB52965BC278B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B569FE54C309A498B31EC6F379344E2 /* ReplaceMe.m in Sources */,
+				11784A25F5E3255307A9BAC0748B0BB9 /* VideoRTC2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4551D5C319A95AFB951D519433ECF39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D21F04663F508C23727B30BCEDC9B6 /* Pods-VideoRTC2_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894F53283F873C38623A4B5338487F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5245C44D4C10FBB3AF6DD20E0F5A6EA /* Pods-VideoRTC2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53CFD5AE2372F897CA34181A166EE25A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VideoRTC2_Example";
+			target = 9BFD16BF789BBDD2E38512C5B4754C4A /* Pods-VideoRTC2_Example */;
+			targetProxy = 7546AC8428F24BF036FC47F000A5BD8F /* PBXContainerItemProxy */;
+		};
+		95967BD7F5F9C7E10B4BB9A61DA09267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VideoRTC2;
+			target = 505AEE0C9267986D6A07E9B52BEB3546 /* VideoRTC2 */;
+			targetProxy = E4ECC3512A81F74F5623F51C319DE939 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04877CC4A68638B8BE9A406A0D0FA0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB739BC23AD99485D75206DC637FB9E6 /* Pods-VideoRTC2_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoRTC2_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoRTC2_Tests/Pods-VideoRTC2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		341CFF5423B7B17A042E25FA6BF6E94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8514FD4257A151C8614856DC4A4D497F /* Pods-VideoRTC2_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoRTC2_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoRTC2_Example/Pods-VideoRTC2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C3C989CA52ACFDD14422FB8D53CEA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB49D6C43BAACE9D76EBFF3C36184711 /* Pods-VideoRTC2_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoRTC2_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoRTC2_Example/Pods-VideoRTC2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D52E1FE7FBB68F5A63F5F9FC6B66245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392A82DAAACE3438A4E69951C511F775 /* VideoRTC2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VideoRTC2/VideoRTC2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VideoRTC2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VideoRTC2/VideoRTC2.modulemap";
+				PRODUCT_MODULE_NAME = VideoRTC2;
+				PRODUCT_NAME = VideoRTC2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D67D270693CBD06F485FD1CD271D4826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392A82DAAACE3438A4E69951C511F775 /* VideoRTC2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VideoRTC2/VideoRTC2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VideoRTC2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VideoRTC2/VideoRTC2.modulemap";
+				PRODUCT_MODULE_NAME = VideoRTC2;
+				PRODUCT_NAME = VideoRTC2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9F788D925EB79F3473F48A25F23E06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2184409707FA3D8F6101151BEDDDBFD /* Pods-VideoRTC2_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoRTC2_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoRTC2_Tests/Pods-VideoRTC2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CC88763512B39AFC12D68628E8A5FA /* Build configuration list for PBXNativeTarget "Pods-VideoRTC2_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3C989CA52ACFDD14422FB8D53CEA66 /* Debug */,
+				341CFF5423B7B17A042E25FA6BF6E94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F167A4B6396A34609130BE025557E0 /* Build configuration list for PBXNativeTarget "VideoRTC2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D52E1FE7FBB68F5A63F5F9FC6B66245 /* Debug */,
+				D67D270693CBD06F485FD1CD271D4826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E21559A8AB3A783FD5284784189696 /* Build configuration list for PBXNativeTarget "Pods-VideoRTC2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F788D925EB79F3473F48A25F23E06A /* Debug */,
+				04877CC4A68638B8BE9A406A0D0FA0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
