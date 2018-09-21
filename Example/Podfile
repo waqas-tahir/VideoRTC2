@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VideoRTC2_Example' do
+  pod 'VideoRTC2', :path => '../'
+
+  target 'VideoRTC2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
